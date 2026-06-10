@@ -1,0 +1,79 @@
+\documentclass[a6paper, parskip=half, DIV=14, 12pt]{scrartcl}
+
+\usepackage{galaofthegods}
+
+\usepackage{mnemonic}
+
+\color{greekbrown}
+\begin{document}
+{%
+\thispagestyle{empty}
+		\enlargethispage{3.5\baselineskip} % Move the bottom line (author and date) down a bit
+\setmainfont[Scale=1.0]{URW Classico}
+\begin{center}
+%\makeatletter
+%{\footnotesize Version \@version}
+%\makeatother
+
+%\vfill
+
+{
+\setmainfont[Scale=1.75]{URW Classico-Bold}
+\Huge
+The Trial of\\[0.5ex]Mnemosyne
+%Mnemonic
+}
+
+\vfill
+
+\begin{tikzpicture}
+\node[draw, line width=2mm, greekbrown, fill=ForestGreen, inner sep=0pt, minimum height=8cm, minimum width=8cm, rounded corners=0.125in] at (0,0) {};
+\node at (0,0) {\includegraphics[height=6cm]{Images/brown_circle_frame}};
+\node[inner sep=0pt] {\includegraphics[height=7cm]{Images/themis.png}};
+\end{tikzpicture}
+%\tikz{\node[inner sep=0pt, xscale=-1] {\includegraphics[height=7cm]{Images/statue_woman.png}};}
+%\quad
+%\tikz{\node[inner sep=0pt] {\includegraphics[height=7cm]{Images/statue_man.png}};}
+
+\vfill{}
+
+{
+\setmainfont{URW Classico}
+\large
+Designed by Michael Purcell
+}
+\end{center}
+}
+
+\newpage
+\input{mnemonic_overview}
+
+\newpage
+
+%\input{mnemonic_components}
+
+\input{mnemonic_setup}
+
+\newpage
+
+\input{mnemonic_gameplay}
+
+%\newpage
+
+\input{mnemonic_memorization}
+
+\newpage
+
+\input{mnemonic_recitation}
+
+\newpage
+
+\input{mnemonic_example}
+
+\vfill
+
+\hrulefill
+
+{\footnotesize \textbf{Design}: Michael Purcell \hfill \textbf{Contact}:~\href{mailto:mike@armiger.games}{mike@armiger.games}}
+
+\end{document}

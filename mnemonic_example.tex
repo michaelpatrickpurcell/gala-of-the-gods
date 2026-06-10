@@ -1,0 +1,36 @@
+\section*{Example}
+
+After shuffling the deck, Mike draws \emph{Poseidon} as his hero card.
+Inspired by Poseidon's role as God of the Sea, Mike decides that his story will be about Carl the fisherman.
+
+Mike draws \emph{Ares} and \emph{Hera} as his first pair of new cards.
+He decides that the story these cards suggest is that Carl the fisherman got into a fight with his sister, Wanda. 
+
+So, he places these two new cards in the grid with \emph{Ares} between \emph{Poseidon} and \emph{Hera}.
+\begin{center}
+\begin{tikzpicture}
+\pic[xscale=0.25, yscale=0.25, transform shape] at (-\horizdist*0.25  - 0.0625in, 0) {character_card_front_alt_small={Poseidon}{poseidon_alt.png}{God of the Sea}{0.25in}{0.0in}{ForestGreen}{gray}{white}};
+\pic[xscale=0.25, yscale=0.25, transform shape] at (0,0) {character_card_front_alt_small={Ares}{ares.png}{God of War}{0.0in}{-0.125in}{CornflowerBlue}{gray}{white}};
+\pic[xscale=0.25, yscale=0.25, transform shape] at (\horizdist*0.25 + 0.0625in, 0) {character_card_front_alt_small={Hera}{hera_alt.png}{Goddess of Family}{0.0in}{0.125in}{CornflowerBlue}{gold}{white}};
+\end{tikzpicture}
+\end{center}
+\textbf{Note:} These cards are shown face up here in the interest of clarity. In a real game, however, all cards are played face down.
+
+\newpage
+
+Mike then draws \emph{Zeus} and \emph{Hecate}.
+He decides that, after their fight, Carl and Wanda saw a spectacular cloud formation which revealed a prophecy about their future.
+
+So, he places these two new cards in the grid with \emph{Zeus} between \emph{Ares} and \emph{Hecate}.
+
+\begin{center}
+\begin{tikzpicture}
+\pic[xscale=0.25, yscale=0.25, transform shape, rotate=90] at (0, -\horizdist*0.25  - 0.0625in) {character_card_front_alt_small={Poseidon}{poseidon_alt.png}{God of the Sea}{0.25in}{0.0in}{ForestGreen}{gray}{white}};
+\pic[xscale=0.25, yscale=0.25, transform shape, rotate=90] at (0,0) {character_card_front_alt_small={Ares}{ares.png}{God of War}{0.0in}{-0.125in}{CornflowerBlue}{gray}{white}};
+\pic[xscale=0.25, yscale=0.25, transform shape, rotate=90] at (0, \horizdist*0.25 + 0.0625in) {character_card_front_alt_small={Hera}{hera_alt.png}{Goddess of Family}{0.0in}{0.125in}{CornflowerBlue}{gold}{white}};
+
+\pic[xscale=0.25, yscale=0.25, transform shape, rotate=90] at (\vertdist*0.25 + 0.0625in, 0) {character_card_front_alt_small={Zeus}{zeus.png}{God of the Sky}{0.125in}{0.0in}{CornflowerBlue}{brown}{white}};
+\pic[xscale=0.25, yscale=0.25, transform shape, rotate=90] at (2\vertdist*0.25 + 0.125in, 0) {character_card_front_alt_small={Hecate}{hecate.png}{Goddess of Prophecy}{0.0in}{0.03in}{Purple}{gray}{white}};
+
+\end{tikzpicture}
+\end{center}

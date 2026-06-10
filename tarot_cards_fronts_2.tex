@@ -1,0 +1,26 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+
+\pagecolor{greekbrown}
+\color{lightgray!30}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+\pic at (-\horizdist,\vertdist) {tarot_card_front={Hera}{Goddess of Family}{-0.6in}};
+\pic at (0\horizdist,\vertdist) {tarot_card_front={Demeter}{Goddess of Agriculture}{-0.55in}};
+\pic at (\horizdist,\vertdist) {tarot_card_front={Athena}{Goddess of Wisdom}{-0.6in}};
+%
+\pic at (-\horizdist,0\vertdist) {tarot_card_front={Artemis}{Goddess of the Hunt}{-0.1in}};
+\pic at (0\horizdist,0\vertdist) {tarot_card_front={Persephone}{Goddess of Spring}{-0.35in}};
+\pic at (1\horizdist,0\vertdist) {tarot_card_front={Dionysus}{God of Revelry}{-0.45in}};
+%
+\pic at (-\horizdist,-\vertdist) {tarot_card_front={Pan}{God of the Wild}{-0.35in}};
+\pic at (0\horizdist,-\vertdist) {tarot_card_front={Hypnos}{God of Sleep}{-0.5in}};
+\pic at (1\horizdist,-\vertdist) {tarot_card_front={Eris}{Goddess of Strife}{-0.3in}};
+
+
+\end{tikzpicture}
+\end{document}

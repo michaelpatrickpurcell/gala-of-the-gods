@@ -1,0 +1,42 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\pagecolor{red}
+
+\definecolor{greekbrown}{HTML}{361610}
+\definecolor{greekorange}{HTML}{e0883f}
+
+\begin{document}
+\begin{tikzpicture}
+
+%\path (-10.0375in, -10.0375in) -- (10.0375in, 10.0375in);
+
+\node[minimum height=0.24in, minimum width=0.24in, fill=greekorange] at (0,0) {};
+\node[minimum height=0.225in, minimum width=0.225in, fill=greekbrown] at (0,0) {};
+
+\draw[greekorange, line width=0.015in] (0, -0.09in) -- (0,0.09in);
+\draw[greekorange, line width=0.015in] (-0.09in, 0.0825in) -- (0.09in, 0.0825in);
+\draw[greekorange, line width=0.015in] (-0.09in, -0.0825in) -- (0.09in, -0.0825in);
+
+\draw[greekorange, line width=0.015in] (-0.11625in, 0) -- (-0.03in, 0);
+\draw[greekorange, line width=0.015in] (0.11625in, 0) -- (0.03in, 0);
+
+\draw[greekorange, line width=0.015in] (-0.0825in, 0.09in) -- (-0.0825in, 0.03in);
+\draw[greekorange, line width=0.015in] (0.0825in, 0.09in) -- (0.0825in, 0.03in);
+\draw[greekorange, line width=0.015in] (-0.0825in, -0.09in) -- (-0.0825in, -0.03in);
+\draw[greekorange, line width=0.015in] (0.0825in, -0.09in) -- (0.0825in, -0.03in);
+
+\draw[greekorange, line width=0.015in] (-0.09in, 0.0375in) -- (-0.03in, 0.0375in);
+\draw[greekorange, line width=0.015in] (0.09in, 0.0375in) -- (0.03in, 0.0375in);
+\draw[greekorange, line width=0.015in] (-0.09in, -0.0375in) -- (-0.03in, -0.0375in);
+\draw[greekorange, line width=0.015in] (0.09in, -0.0375in) -- (0.03in, -0.0375in);
+
+\draw[greekorange, line width=0.0225in] (-0.04125in, 0.03in) -- (-0.04125in, 0.05625in);
+\draw[greekorange, line width=0.0225in] (0.04125in, 0.03in) -- (0.04125in, 0.05625in);
+\draw[greekorange, line width=0.0225in] (-0.04125in, -0.03in) -- (-0.04125in, -0.05625in);
+\draw[greekorange, line width=0.0225in] (0.04125in, -0.03in) -- (0.04125in, -0.05625in);
+
+
+
+\end{tikzpicture}
+\end{document}

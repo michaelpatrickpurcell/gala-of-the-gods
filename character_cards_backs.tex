@@ -1,0 +1,30 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+\setmainfont[Scale=1.625]{URW Classico}%{Cinzel-Medium}%{URW Classico}%{Caesar Dressing}%{Oh Mighty Isis}%{Caesar Dressing}{Basileus}
+
+\definecolor{greekbrown}{HTML}{361610}
+\definecolor{greekorange}{HTML}{e0883f}
+
+\pagecolor{white}
+\color{greekorange}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+
+\pic at (-\horizdist,1\vertdist) {character_card_back={black}};
+\pic at (0\horizdist,1\vertdist) {character_card_back={black}};
+\pic at (1\horizdist,1\vertdist) {character_card_back={black}};
+
+\pic at (-\horizdist,0\vertdist) {character_card_back={black}};
+\pic at (0\horizdist,0\vertdist) {character_card_back={black}};
+\pic at (1\horizdist,0\vertdist) {character_card_back={black}};
+
+\pic at (-\horizdist,-\vertdist) {character_card_back={black}};
+\pic at (0\horizdist,-\vertdist) {character_card_back={black}};
+\pic at (1\horizdist,-\vertdist) {character_card_back={black}};
+
+\end{tikzpicture}
+\end{document}

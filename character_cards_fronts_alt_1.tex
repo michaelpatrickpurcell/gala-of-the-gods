@@ -1,0 +1,26 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+\usepackage{amsmath, amsfonts, amssymb}
+\pagecolor{white}
+\color{greekbrown}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+
+\pic at (-\horizdist,1\vertdist) {character_card_front_alt={Zeus}{zeus.png}{God of the Sky}{0.125in}{0.0in}{CornflowerBlue}{brown}{white}};
+\pic at (0\horizdist,1\vertdist) {character_card_front_alt={Hephaestus}{hephaestus.png}{God of the Forge}{0.0625in}{0.0in}{Purple}{gray}{white}};
+\pic at (1\horizdist,1\vertdist) {character_card_front_alt={Hera}{hera_alt.png}{Goddess of Family}{0.0in}{0.125in}{CornflowerBlue}{gold}{white}};
+%
+\pic at (-\horizdist,0\vertdist) {character_card_front_alt={Hades}{hades_alt.png}{God of the Underworld}{0.0in}{0.0in}{Purple}{gold}{white}};
+\pic at (0\horizdist,0\vertdist) {character_card_front_alt={Poseidon}{poseidon_alt.png}{God of the Sea}{0.25in}{0.0in}{ForestGreen}{gray}{white}};
+\pic at (1\horizdist,0\vertdist) {character_card_front_alt={Athena}{athena.png}{Goddess of Wisdom}{0.225in}{0.0in}{CornflowerBlue}{gray}{white}};
+%
+\pic at (-\horizdist,-\vertdist) {character_card_front_alt={Apollo}{apollo_alt.png}{God of Healing}{0.0in}{0.075in}{ForestGreen}{brown}{white}};
+\pic at (0\horizdist,-\vertdist) {character_card_front_alt={Demeter}{demeter.png}{Goddess of Agriculture}{0.0in}{0.0in}{Purple}{brown}{white}};
+\pic at (1\horizdist,-\vertdist) {character_card_front_alt={Ares}{ares.png}{God of War}{0.0in}{-0.125in}{CornflowerBlue}{gray}{white}};
+
+\end{tikzpicture}
+\end{document}

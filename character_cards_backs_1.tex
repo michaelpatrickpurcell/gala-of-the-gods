@@ -1,0 +1,26 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+\usepackage{amsmath, amsfonts, amssymb}
+\pagecolor{white}
+\color{lightgray!30}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+
+\pic at (1\horizdist,1\vertdist) {character_card_front={Zeus}{zeus.png}{orange}{red}{purple}{blue}};
+\pic at (0\horizdist,1\vertdist) {character_card_front={Hephaestus}{hephaestus.png}{yellow}{red}{purple}{green}};
+\pic at (-\horizdist,1\vertdist) {character_card_front={Persephone}{persephone.png}{yellow}{red}{green}{blue}};
+
+\pic at (1\horizdist,0\vertdist) {character_card_front={Hera}{hera.png}{orange}{red}{blue}{purple}};
+\pic at (0\horizdist,0\vertdist) {character_card_front={Poseidon}{poseidon.png}{orange}{red}{purple}{green}};
+\pic at (-\horizdist,0\vertdist) {character_card_front={Hades}{hades.png}{orange}{red}{blue}{green}};
+
+\pic at (1\horizdist,-\vertdist) {character_card_front={Demeter}{demeter.png}{orange}{red}{green}{blue}};
+\pic at (0\horizdist,-\vertdist) {character_card_front={Apollo}{apollo.png}{yellow}{orange}{purple}{blue}};
+\pic at (-\horizdist,-\vertdist) {character_card_front={Ares}{ares.png}{yellow}{red}{purple}{blue}{}};
+
+\end{tikzpicture}
+\end{document}

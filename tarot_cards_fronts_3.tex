@@ -1,0 +1,26 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+
+\pagecolor{greekbrown}
+\color{lightgray!30}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+\pic at (-\horizdist,\vertdist) {tarot_card_front={Harmonia}{Goddess of Harmony}{-0.6in}};
+\pic at (0\horizdist,\vertdist) {tarot_card_front={Prometheus}{God of Fire}{-0.55in}};
+\pic at (\horizdist,\vertdist) {tarot_card_front={Atlas}{God of Strength}{-0.6in}};
+%%
+\pic at (-\horizdist,0\vertdist) {tarot_card_front={The Moirai}{Goddesses of Fate}{-0.5in}};
+\pic at (0\horizdist,0\vertdist) {tarot_card_front={Astraea}{Goddess of Justice}{-0.5in}};
+\pic at (1\horizdist,0\vertdist) {tarot_card_front={Morpheus}{God of Dreams}{0.1in}};
+%%
+\pic at (-\horizdist,-\vertdist) {tarot_card_front={The Erinyes}{Goddesses of Vengence}{-0.3in}};
+\pic at (0\horizdist,-\vertdist) {tarot_card_front={Eros}{God of Passion}{-0.0in}};
+\pic at (1\horizdist,-\vertdist) {tarot_card_front={Aristaeus}{God of Handicrafts}{-0.5in}};
+
+
+\end{tikzpicture}
+\end{document}

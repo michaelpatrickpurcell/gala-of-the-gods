@@ -1,0 +1,21 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+
+\pagecolor{white}
+\color{greekbrown}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+
+\pic at (-\horizdist,1\vertdist) {character_card_front_alt={Pan}{pan.png}{God of the Wild}{0.0in}{0.125in}{ForestGreen}{gray}{white}};
+\pic at (0\horizdist,1\vertdist) {character_card_front_alt={Nike}{nike_alt.png}{Goddess of Victory}{0.25in}{0.0in}{CornflowerBlue}{gold}{white}};
+\pic at (1\horizdist,1\vertdist) {character_card_front_alt={Hypnos}{hypnos_alt.png}{God of Sleep}{0.0in}{0.0in}{Purple}{brown}{white}};
+
+%\pic at (-\horizdist,0\vertdist) {character_card_front_alt={Eros}{eros.png}{God of Desire}{0.0in}{0.125in}{CornflowerBlue}{gold}{white}};
+%\pic at (0\horizdist,0\vertdist) {character_card_front_alt={Eris}{persephone.png}{Goddess of Discord}{0.0in}{0.15in}{Purple}{gold}{white}};
+
+\end{tikzpicture}
+\end{document}

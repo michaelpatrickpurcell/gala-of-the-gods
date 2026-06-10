@@ -1,0 +1,28 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+
+\pagecolor{white}
+\color{greekwhite}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+
+\pic at (-\horizdist,1\vertdist) {character_card_frontb={Zeus}{zeus2b.png}{hephaestus}{persephone}{athena}{black}};
+\pic at (0\horizdist,1\vertdist) {character_card_frontb={Hephaestus}{hephaestus2.png}{apollo}{hera}{hades}{black}};
+%\pic at (1\horizdist,1\vertdist) {character_card_frontb={Persephone}{persephone2.png}{hermes}{hestia}{poseidon}{black}};
+\pic at (1\horizdist,1\vertdist) {character_card_frontb={Hypnos}{hypnos2b.png}{hermes}{hestia}{poseidon}{black}};
+
+%%%%
+\pic at (-\horizdist,0\vertdist) {character_card_frontb={Hera}{hera2.png}{hermes}{hecate}{athena}{black}};
+\pic at (0\horizdist,0\vertdist) {character_card_frontb={Poseidon}{poseidon2.png}{themis}{hestia}{demeter}{black}};
+\pic at (1\horizdist,0\vertdist) {character_card_frontb={Hades}{hades2b.png}{ares}{persephone}{dionysus}{black}};
+%%%
+\pic at (-\horizdist,-\vertdist) {character_card_frontb={Demeter}{demeter2.png}{themis}{persephone}{hestia}{black}};
+\pic at (0\horizdist,-\vertdist) {character_card_frontb={Apollo}{apollo2b.png}{themis}{aphrodite}{hestia}{black}};
+\pic at (1\horizdist,-\vertdist) {character_card_frontb={Ares}{ares2b.png}{apollo}{dionysus}{demeter}{black}};
+
+\end{tikzpicture}
+\end{document}

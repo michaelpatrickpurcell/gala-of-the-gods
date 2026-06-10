@@ -1,0 +1,27 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+
+\pagecolor{greekbrown}
+\color{lightgray!30}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+\pic at (-\horizdist,\vertdist) {tarot_card_front={Zeus}{God of the Sky}{-0.25in}};
+\pic at (0\horizdist,\vertdist) {tarot_card_front={Poseidon}{God of the Sea}{0in}};
+\pic at (\horizdist,\vertdist) {tarot_card_front={Hades}{God of the Underworld}{0.375in}};
+
+
+\pic at (-\horizdist,0\vertdist) {tarot_card_front={Hephaestus}{God of the Forge}{0.1in}};
+\pic at (0\horizdist,0\vertdist) {tarot_card_front={Aphrodite}{Goddess of Love}{-0.5in}};
+\pic at (1\horizdist,0\vertdist) {tarot_card_front={Ares}{God of War}{-0.6in}};
+
+\pic at (-\horizdist,-\vertdist) {tarot_card_front={Hermes}{God of Messengers}{-0.25in}};
+\pic at (0\horizdist,-\vertdist) {tarot_card_front={Apollo}{God of Prophecy}{-0.125in}};
+\pic at (1\horizdist,-\vertdist) {tarot_card_front={Hestia}{Goddess of the Hearth}{-0.575in}};
+
+
+\end{tikzpicture}
+\end{document}

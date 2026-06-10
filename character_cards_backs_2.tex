@@ -1,0 +1,27 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+
+\pagecolor{white}
+\color{lightgray!30}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+
+\pic at (1\horizdist,1\vertdist) {character_card_front={Hecate}{hecate.png}{yellow}{orange}{green}{blue}};
+\pic at (0\horizdist,1\vertdist) {character_card_front={Aphrodite}{aphrodite.png}{yellow}{red}{blue}{purple}};
+\pic at (-\horizdist,1\vertdist) {character_card_front={Dionysus}{dionysus.png}{yellow}{orange}{blue}{green}};
+%%%
+\pic at (1\horizdist,0\vertdist) {character_card_front={Hestia}{hestia.png}{orange}{red}{green}{purple}};
+\pic at (0\horizdist,0\vertdist) {character_card_front={Artemis}{artemis.png}{yellow}{orange}{blue}{purple}};
+\pic at (-\horizdist,0\vertdist) {character_card_front={Athena}{athena.png}{yellow}{red}{green}{purple}};
+%%%%
+\pic at (1\horizdist,-\vertdist) {character_card_front={Hermes}{hermes.png}{yellow}{red}{blue}{green}};
+%%\pic at (0\horizdist,-\vertdist) {character_card_front={Themis}{themis.png}{zeus}{dionysus}{hades}{black}};
+\pic at (0\horizdist,-\vertdist) {character_card_front={Pan}{pan.png}{yellow}{orange}{purple}{green}};
+\pic at (-\horizdist,-\vertdist) {character_card_front={Nike}{nike.png}{yellow}{orange}{green}{purple}};
+%
+\end{tikzpicture}
+\end{document}

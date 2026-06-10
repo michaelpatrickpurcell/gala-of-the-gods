@@ -1,0 +1,26 @@
+\documentclass{standalone}
+
+\usepackage{galaofthegods}
+\usepackage{fontspec}
+
+\pagecolor{white}
+\color{greekwhite}
+
+\begin{document}
+\begin{tikzpicture}
+\path (-105mm, -148mm) -- (105mm, 148.5mm);
+
+%\pic at (-\horizdist,1\vertdist) {character_card_frontb={Hecate}{hecate.png}{themis}{poseidon}{athena}{black}};
+\pic at (0\horizdist,1\vertdist) {character_card_frontb={Aphrodite}{aphrodite2.png}{hermes}{hestia}{artemis}{black}};
+\pic at (1\horizdist,1\vertdist) {character_card_frontb={Dionysus}{dionysus2.png}{hephaestus}{persephone}{hestia}{black}};
+%%
+\pic at (-\horizdist,0\vertdist) {character_card_frontb={Hestia}{hestia2.png}{ares}{themis}{zeus}{black}};
+\pic at (0\horizdist,0\vertdist) {character_card_frontb={Artemis}{artemis2.png}{apollo}{zeus}{dionysus}{black}};
+\pic at (1\horizdist,0\vertdist) {character_card_frontb={Athena}{athena2.png}{ares}{hephaestus}{dionysus}{black}};
+%%%
+\pic at (-\horizdist,-\vertdist) {character_card_frontb={Hermes}{hermes2b.png}{nike}{dionysus}{hestia}{black}};
+%\pic at (0\horizdist,-\vertdist) {character_card_frontb={Themis}{themis.png}{zeus}{dionysus}{hades}{black}};
+\pic at (1\horizdist,-\vertdist) {character_card_frontb={Nike}{nike2.png}{ares}{hades}{demeter}{black}};
+%
+\end{tikzpicture}
+\end{document}
